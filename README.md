@@ -4,32 +4,50 @@ This project helps you engage in insightful conversations and get prompt assista
 
 ## How to use
 
-1. Clone this repo
-     git repo https://github.com/dishathakurata/Streamlit-Chatbot-Interface.git
-   
-2. Create a new venv or conda environment
-      Using venv:
-        bash
-        python -m venv venv
-        source venv/bin/activate
-   
-      Using conda:
-        bash
-        conda create --name myenv
-        conda activate myenv
+1. **Clone the Repo:**
 
-3. Install Streamlit
-      pip install streamlit openai python-dotenv
+   ```bash
+   git clone https://github.com/dishathakurata/Streamlit-Chatbot-Interface.git
+   ```
 
-   Install Required Modules
-      pip install -r requirements.txt
+2. **Create Virtual Environment:**
 
+  Using `venv`:
+  ```bash
+  python -m venv venv
+  source venv/bin/activate
+  ```
 
-4. Test installation
-      streamlit hello
+  Using `conda`:
+  ```bash
+  conda create --name myenv
+  conda activate myenv
+  ```
+3. **Install Required Modules:**
 
-5. Renave example.env file to .env
-      mv renamedot.env .env
+  ```bash
+  pip install -r requirements.txt
+  ```
 
-6. Run your Streamlit app with
-      streamlit run app.py
+4. **Get OpenAI API KEY:**
+
+   - Obtain your API key from the [OpenAI website](https://platform.openai.com/).
+   - Open the file named renamedot.env and enter your API key.
+
+5. **Rename the File:**
+
+   - Change `example.env` to `.env`
+     ```bash
+     mv example.env .env
+     ```
+6. **Run the Script:**
+
+    ```bash
+    streamlit run app.py
+     ```
+
+7. **Enjoy playing !**
+
+# Disha Thakurata
+## 💛💻
+
