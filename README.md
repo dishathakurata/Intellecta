@@ -49,5 +49,5 @@ This project helps you engage in insightful conversations and get prompt assista
 7. **Enjoy playing !**
 
 # Disha Thakurata
-## 💛💻
+## 🖤💻💚
 
