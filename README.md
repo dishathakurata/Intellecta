@@ -21,8 +21,6 @@ This project helps you engage in insightful conversations and get prompt assista
 3. Install Streamlit
       pip install streamlit openai python-dotenv
 
-                 OR
-
    Install Required Modules
       pip install -r requirements.txt
 
