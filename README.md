@@ -7,7 +7,7 @@ This project helps you engage in insightful conversations and get prompt assista
 1. **Clone the Repo:**
 
    ```bash
-   git clone https://github.com/dishathakurata/Streamlit-Chatbot-Interface.git
+   git clone https://github.com/dishathakurata/Intellecta.git
    ```
 
 2. **Create Virtual Environment:**
