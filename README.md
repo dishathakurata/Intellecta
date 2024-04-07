@@ -1,4 +1,4 @@
-# Streamlit-Chatbot-Interface
+# Intellecta
 
 This project helps you engage in insightful conversations and get prompt assistance. Powered by OpenAI's GPT-3.5 Turbo model, Intellecta is designed to provide intelligent responses to your queries.
 
