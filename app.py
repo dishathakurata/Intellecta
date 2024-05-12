@@ -51,8 +51,12 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"], avatar=avatar):
         st.markdown(message["content"])
 
+coder_name = "Intellecta is a chatbot, coded by Disha Thakurata. "
+bot_name = "Your name is Intellecta. "
+
 # Main chat interface
-if prompt := st.chat_input("How can I help?"):
+if prompt := st.chat_input("Hello I am Intellecta, How can I help?"):
+    
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user", avatar=USER_AVATAR):
         st.markdown(prompt)
@@ -60,9 +64,10 @@ if prompt := st.chat_input("How can I help?"):
     with st.chat_message("assistant", avatar=BOT_AVATAR):
         message_placeholder = st.empty()
         full_response = ""
+        print(st.session_state["messages"])
         for response in client.chat.completions.create(
             model=st.session_state["openai_model"],
-            messages=st.session_state["messages"],
+            messages=[{"role": "assistant", "content": f"Tell this informations only when asked. {coder_name} {bot_name}"}]+st.session_state["messages"],
             stream=True,
         ):
             full_response += response.choices[0].delta.content or ""
